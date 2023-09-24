@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0 ;
+    text-decoration: none;
+    list-style: none;
+
+}
+h1{ font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.25em;}
+
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+header{
+    background-color: #fffdfd;
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: #87CEEB;
+    font-size: 1.6em;
+}
+header .container{
+display:flex;
+flex-direction: column;
+align-items: center;
+
+}
+header nav{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+
+}
+
+header a{
+    padding: 9px 12px;
+    font-weight: bold;
+    color: black;
+}
+header a:hover{
+    color: #87CEEB;
+}
+
+#imagen .container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height:90vh;
+    color:white;
+    background-image: linear-gradient(
+        0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    ),url(media/carta2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+
+
+
+img{
+    max-width: 100%;
+    background-color: #87CEEB;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    
+}
+.header-content{
+    display: flex;
+    background-color: #87CEEB;
+
+}
+
+.header-txt{
+    flex-basis: 50%;
+    
+
+}
+
+.header-txt h1{
+    font-size: 50px;
+    line-height: 1;
+    color: #87CEEB;
+    margin-bottom: 25px;
+}
+p{
+    font-size: 16px;
+    color:#ffffff;
+    margin-bottom: 45px;
+}
+
+.gif{padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.respiracion1{text-align: center;
+flex-basis: calc(25% - 20px);
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+padding: 35px;}
+.respiracion2{text-align: center;
+flex-basis: calc(25% - 20px);
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+padding: 35px;}
+.respiracion3{text-align: center;
+flex-basis: calc(25% - 20px);
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+padding: 35px;}
+.respiracion4{text-align: center;
+flex-basis: calc(25% - 20px);
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+padding: 35px;}
+
+.gif{width: 140px;
+    margin-bottom: 10px;
+
+}
+.respiracio1 h2{
+    font-size: 40px;
+    color: #87CEEB;
+    text-transform: capitalize;
+    margin-bottom: 55px;
+}
+
+.respiracion2 h2{
+    font-size: 40px;
+    color: #87CEEB;
+    text-transform: capitalize;
+    margin-bottom: 55px;
+}
+.respiracion3 h2{
+    font-size: 40px;
+    color: #87CEEB;
+    text-transform: capitalize;
+    margin-bottom: 55px;
+}
+.respiracion4 h2{
+    font-size: 40px;
+    color: #87CEEB;
+    text-transform: capitalize;
+    margin-bottom: 55px;
+}
+#p1{
+    color: black;
+}
+
+.producto{
+    
+    grid-template-columns: repeat(4,1fr);
+}
+
+footer{
+    background-color: #000000;
+}
+footer .p{
+    margin:0;
+    padding:12px;
+    color: rgb(255, 255, 255);
+}
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media(min-width: 720px){
+
+    header{
+        position: fixed;
+        width: 100%;
+    }
+  
+    header .container{
+        flex-direction: row;
+       justify-content: space-evenly;
+
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 30px;
+        
+    }
+    
+    .producto{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+       
+        text-align: center;
+        box-shadow: 0 0 5px;
+        padding-top: 10px;
+    }
+    footer .container{
+        justify-content: flex-end;
+        color: rgb(249, 249, 249);
+    }}
