@@ -61,7 +61,7 @@ header a:hover{
         0deg,
     rgba(0,0,0,0.5),
     rgba(0,0,0,0.5)
-    ),url(media/carta2.jpg);
+    ),url(media/carta1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -132,31 +132,13 @@ padding: 35px;}
     margin-bottom: 10px;
 
 }
-.respiracio1 h2{
+ h2{
     font-size: 40px;
     color: #87CEEB;
     text-transform: capitalize;
     margin-bottom: 55px;
 }
 
-.respiracion2 h2{
-    font-size: 40px;
-    color: #87CEEB;
-    text-transform: capitalize;
-    margin-bottom: 55px;
-}
-.respiracion3 h2{
-    font-size: 40px;
-    color: #87CEEB;
-    text-transform: capitalize;
-    margin-bottom: 55px;
-}
-.respiracion4 h2{
-    font-size: 40px;
-    color: #87CEEB;
-    text-transform: capitalize;
-    margin-bottom: 55px;
-}
 #p1{
     color: black;
 }
