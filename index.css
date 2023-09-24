@@ -156,12 +156,12 @@ header a:hover{
 }
 
 footer{
-    background-color: #fffdfd;
+    background-color: #000000;
 }
 footer .p{
     margin:0;
     padding:12px;
-    color: rgb(183, 183, 200);
+    color: rgb(255, 255, 255);
 }
 footer .container{
     height: 150px;
@@ -235,5 +235,6 @@ footer .container{
 
 footer .container{
     justify-content: flex-end;
+    color:#ffffff
 }
 }

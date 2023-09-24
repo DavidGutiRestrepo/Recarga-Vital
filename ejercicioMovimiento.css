@@ -157,11 +157,30 @@ padding: 35px;}
     text-transform: capitalize;
     margin-bottom: 55px;
 }
+#p1{
+    color: black;
+}
 
 .producto{
     
     grid-template-columns: repeat(4,1fr);
 }
+
+footer{
+    background-color: #000000;
+}
+footer .p{
+    margin:0;
+    padding:12px;
+    color: rgb(255, 255, 255);
+}
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 @media(min-width: 720px){
 
     header{
@@ -188,4 +207,8 @@ padding: 35px;}
         text-align: center;
         box-shadow: 0 0 5px;
         padding-top: 10px;
+    }
+    footer .container{
+        justify-content: flex-end;
+        color: rgb(249, 249, 249);
     }}
